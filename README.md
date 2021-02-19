@@ -10,22 +10,22 @@
 
 ##### for help:
 
-    from GimpEffects import GimpEffects as ge
-    import pillow
+    from GmicEffects import GmicEffects as ge
+    import PIL.Image
     
     ge.help()#for help
     
 ##### for effects list:
 
-    from GimpEffects import GimpEffects as ge
-    import pillow
+    from GmicEffects import GmicEffects as ge
+    import PIL.Image
     
     ge.effects()#for effects list
 
 ##### for example:
 
-    from GimpEffects import GimpEffects as ge
-    import pillow
+    from GmicEffects import GmicEffects as ge
+    import PIL.Image
     
     oldPhoto = ge.old_photo("myphoto.png")#old photo effect
     
